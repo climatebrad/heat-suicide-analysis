@@ -23,9 +23,9 @@ The purpose of this project is to examine whether unusual rise in temperature in
   * Sklearn
 
 ## Project Description
-This project tests several hypotheses with t-tests
-  * Ho: Suicide rates are higher in the winter than in the summer
-  * Ho: Suicide rates during unusually hot summer months are the same as the other summer months
+This project tests the following hypotheses with t-tests
+  * Ho: Suicide rates are higher in the winter than in the summer (paired)
+  * Ho: Suicide rates during unusually hot summer months are the same as the other summer months (independent)
 
 ## Sources
 * Suicides:
