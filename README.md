@@ -11,8 +11,8 @@ The purpose of this project is to examine whether unusual rise in temperature in
   * Github (https://github.com/seoho926)
 
 ### Methods Used
-* paired sample t-tests
-* independent sample t-tests
+* paired sample t-test
+* independent sample t-test
 
 ### Technologies
 * Python
@@ -23,19 +23,23 @@ The purpose of this project is to examine whether unusual rise in temperature in
   * Sklearn
 
 ## Project Description
-This project tests several hypothesis with t-tests
+This project tests several hypotheses with t-tests
   * Ho: Suicide rates are higher in the winter than in the summer
   * Ho: Suicide rates during unusually hot summer months are the same as the other summer months
 
 ## Sources
-* `suicides.txt` from https://wonder.cdc.gov/wonder/help/mcd.html, restricted to suicides
-* https://wonder.cdc.gov/mcd-icd10.html
-* Click Agree
-* https://wonder.cdc.gov/controller/datarequest/D77
-* Group results by State, Year, Month
-* Ages exclude "Not stated"; Hispanic Origin exclude "Not stated"
-* Underlying cause of death: X60-X84 (Intentional self-harm)
-
+* Suicides:
+  * `suicides.txt` from https://wonder.cdc.gov/wonder/help/mcd.html, restricted to suicides
+  * https://wonder.cdc.gov/mcd-icd10.html
+  * Click Agree
+  * Group results by State, Year, Month
+  * Ages exclude "Not stated"; Hispanic Origin exclude "Not stated"
+  * Underlying cause of death: X60-X84 (Intentional self-harm)
+* Temperatures & Heat Index:
+  * `________.txt` from https://wonder.cdc.gov/wonder/help/nldas.html
+  * https://wonder.cdc.gov/nasa-nldas.html
+  * Group results by State, Year, Month
+  
 ## Featured Notebooks/Analysis/Deliverables
 * Please See the MASTER Jupyter notebook above for the main analysis
 > _Note: Visualizations may not render if notebook is loaded in browser. For best viewing results, clone project to local machine._
