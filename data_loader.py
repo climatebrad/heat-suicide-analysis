@@ -6,7 +6,7 @@ import scipy.stats as stats
 
 def load_suicides(filename):
     suicides = pd.read_csv(filename, sep='\t', na_values='Not Applicable')
-    suicides = suicides.dropna(subset=['State'])
+    suicides = suicides.dropna(subset=['State']) # Remove trailing rows
     suicides = suicides.drop(columns=['Notes', 'Crude Rate', 'Population'])
     suicides['Month'] = suicides['Month Code'].str.slice(-2).astype(np.int64)
     return suicides
@@ -36,7 +36,7 @@ def load_heat(filename):
 
 def calc_mean_diff(data, var):
     return data['var'] - data.groupby(['State', 'Month'])['var'].transform('mean')
-    
+
 def add_heat_to_suicides(suicides, heat):
     suicides = suicides.merge(heat[['State',
                                 'Month Code',
@@ -48,3 +48,10 @@ def add_heat_to_suicides(suicides, heat):
     suicides['max_t_diff'] = calc_mean_diff(suicides, 'avg_max_t')
     suicides['heat_index_diff'] = calc_mean_diff(suicides, 'avg_max_heat_index')
     return suicides
+
+
+def parser(x):
+	return pd.datetime.strptime(x, '%Y/%m')
+
+def load_final(filename):
+    return pd.read_csv(filename, parse_dates=['Month Code'], index_col=0, date_parser=parser)
