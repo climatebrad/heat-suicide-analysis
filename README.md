@@ -41,6 +41,5 @@ This project tests the following hypotheses with t-tests
   * Group results by State, Year, Month
   
 ## Featured Notebooks/Analysis/Deliverables
-* Main analysis: MASTER Jupyter notebook (ADD LINK!!!!)
-* Presentation slides: https://docs.google.com/presentation/d/1C0OugJ_nZti4qI2hqpAMDof26kzNYE2VsUCQJPBu7IQ/edit?usp=sharing
-> _Note: Visualizations may not render if notebook is loaded in browser. For best viewing results, clone project to local machine._
+* Please See the MASTER Jupyter notebook above for the main analysis
+
