@@ -58,5 +58,5 @@ To acquire raw temperature data:
 * click "Send"
   
 ## Featured Notebooks/Analysis/Deliverables
-* [notebooks/Dataset exploration](notebooks/Dataset exploration.ipynb)
+* [notebooks/MASTER.ipynb](notebooks/MASTER.ipynb)
 
