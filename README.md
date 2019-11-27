@@ -6,9 +6,9 @@ The purpose of this project is to examine whether unusual rise in temperature in
 
 ### Collaborators
 * Brad Johnson
-  * Github (https://github.com/climatebrad)
+  * [Github](https://github.com/climatebrad)
 * Seoho Hahm
-  * Github (https://github.com/seoho926)
+  * [Github](https://github.com/seoho926)
 
 ### Methods Used
 * paired sample t-test
@@ -29,17 +29,31 @@ This project tests the following hypotheses with t-tests
 
 ## Sources
 * Suicides:
-  * `suicides.txt` from https://wonder.cdc.gov/wonder/help/mcd.html, restricted to suicides
-  * https://wonder.cdc.gov/mcd-icd10.html
-  * Click Agree
-  * Group results by State, Year, Month
-  * Ages exclude "Not stated"; Hispanic Origin exclude "Not stated"
-  * Underlying cause of death: X60-X84 (Intentional self-harm)
+  * Reference: [Multiple Cause of Death 1999 - 2017](https://wonder.cdc.gov/wonder/help/mcd.html)
+  * To access:
+   * go to [About Multiple Cause of Death, 1999-2017](https://wonder.cdc.gov/mcd-icd10.html)
+   * click "I Agree"
+   * _1. Organize table layout:_
+    * Group Results By: State, Year, Month
+   * _3. Select demographics:_
+    * exclude Ten-Year Age Groups _Not stated_; exclude Hispanic Origin _Not stated_
+   * _6. Underlying cause of death:_ 
+    * select _X60-X84 (Intentional self-harm)_
+   * _8. Other options:_
+    * select _Export Results_
+    * deselect _Show Totals_
+   * click "Send"
 * Temperatures & Heat Index:
-  * `________.txt` from https://wonder.cdc.gov/wonder/help/nldas.html
-  * https://wonder.cdc.gov/nasa-nldas.html
-  * Group results by State, Year, Month
+  * Reference [North America Land Data Assimilation System (NLDAS) Daily Air Temperatures and Heat Index 1979 - 2011](https://wonder.cdc.gov/wonder/help/nldas.html)
+  * To access:
+   * Go to [North America Land Data Assimilation System (NLDAS) Daily Air Temperatures and Heat Index (1979-2011) Request](https://wonder.cdc.gov/nasa-nldas.html)
+  * _1. Organize table layout:_
+   * Group results by State, Year, Month
+  * _5. Other options:_
+   * select _Export Results_
+   * deselect _Show Totals_
+  * click "Send"
   
 ## Featured Notebooks/Analysis/Deliverables
-* Please See the MASTER Jupyter notebook above for the main analysis
+* Dataset Exploration
 
