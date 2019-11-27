@@ -24,8 +24,11 @@ The purpose of this project is to examine whether unusual rise in temperature in
 
 ## Project Description
 This project tests the following hypotheses with t-tests
-  * Ho: Suicide rates are higher in the winter than in the summer (paired)
-  * Ho: Suicide rates during unusually hot summer months are the same as the other summer months (independent)
+  * Ha: Suicide rates are higher in the winter than in the summer (paired)
+  * Ha: Suicide rates during unusually hot summer months are higher than the other summer months (independent)
+
+## Featured Notebooks/Analysis/Deliverables
+* [notebooks/MASTER.ipynb](notebooks/MASTER.ipynb)
 
 ## Sources
 
@@ -57,6 +60,5 @@ To acquire raw temperature data:
   * deselect _Show Totals_
 * click "Send"
   
-## Featured Notebooks/Analysis/Deliverables
-* [notebooks/MASTER.ipynb](notebooks/MASTER.ipynb)
+
 
