@@ -6,9 +6,9 @@ The purpose of this project is to examine whether unusual rise in temperature in
 
 ### Collaborators
 * Brad Johnson
-  * Github (https://github.com/climatebrad)
+  * [Github](https://github.com/climatebrad)
 * Seoho Hahm
-  * Github (https://github.com/seoho926)
+  * [Github](https://github.com/seoho926)
 
 ### Methods Used
 * paired sample t-test
@@ -24,23 +24,41 @@ The purpose of this project is to examine whether unusual rise in temperature in
 
 ## Project Description
 This project tests the following hypotheses with t-tests
-  * Ho: Suicide rates are higher in the winter than in the summer (paired)
-  * Ho: Suicide rates during unusually hot summer months are the same as the other summer months (independent)
+  * Ha: Suicide rates are higher in the winter than in the summer (paired)
+  * Ha: Suicide rates during unusually hot summer months are higher than the other summer months (independent)
+
+## Featured Notebooks/Analysis/Deliverables
+* [notebooks/MASTER.ipynb](notebooks/MASTER.ipynb)
 
 ## Sources
-* Suicides:
-  * `suicides.txt` from https://wonder.cdc.gov/wonder/help/mcd.html, restricted to suicides
-  * https://wonder.cdc.gov/mcd-icd10.html
-  * Click Agree
+
+### Suicides:
+Reference: [Multiple Cause of Death 1999 - 2017](https://wonder.cdc.gov/wonder/help/mcd.html)
+
+To acquire raw suicide data:
+* go to [About Multiple Cause of Death, 1999-2017](https://wonder.cdc.gov/mcd-icd10.html)
+* click "I Agree"
+* In _1. Organize table layout:_
+  * Group Results By: State, Year, Month
+* In _3. Select demographics:_
+  * exclude Ten-Year Age Groups _Not stated_; exclude Hispanic Origin _Not stated_
+* In _6. Underlying cause of death:_ 
+  * select _X60-X84 (Intentional self-harm)_
+* In _8. Other options:_
+  * select _Export Results_
+  * deselect _Show Totals_
+* click "Send"
+### Temperatures & Heat Index:
+Reference [North America Land Data Assimilation System (NLDAS) Daily Air Temperatures and Heat Index 1979 - 2011](https://wonder.cdc.gov/wonder/help/nldas.html)
+
+To acquire raw temperature data:
+* Go to [North America Land Data Assimilation System (NLDAS) Daily Air Temperatures and Heat Index (1979-2011) Request](https://wonder.cdc.gov/nasa-nldas.html)
+* In _1. Organize table layout:_
   * Group results by State, Year, Month
-  * Ages exclude "Not stated"; Hispanic Origin exclude "Not stated"
-  * Underlying cause of death: X60-X84 (Intentional self-harm)
-* Temperatures & Heat Index:
-  * `________.txt` from https://wonder.cdc.gov/wonder/help/nldas.html
-  * https://wonder.cdc.gov/nasa-nldas.html
-  * Group results by State, Year, Month
+* In _5. Other options:_
+  * select _Export Results_
+  * deselect _Show Totals_
+* click "Send"
   
-## Featured Notebooks/Analysis/Deliverables
-* Main analysis: MASTER Jupyter notebook (ADD LINK!!!!)
-* Presentation slides: https://docs.google.com/presentation/d/1C0OugJ_nZti4qI2hqpAMDof26kzNYE2VsUCQJPBu7IQ/edit?usp=sharing
-> _Note: Visualizations may not render if notebook is loaded in browser. For best viewing results, clone project to local machine._
+
+
