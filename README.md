@@ -29,7 +29,7 @@ This project tests the following hypotheses with t-tests
 
 ## Featured Notebooks/Analysis/Deliverables
 * [notebooks/MASTER.ipynb](notebooks/MASTER.ipynb)
-* Heat & Suicide.pdf
+* [Heat & Suicide.pdf](https://github.com/climatebrad/heat-suicide-analysis/blob/master/Heat%20%26%20Suicide.pdf)
 
 ## Sources
 
@@ -49,6 +49,7 @@ To acquire raw suicide data:
   * select _Export Results_
   * deselect _Show Totals_
 * click "Send"
+
 ### Temperatures & Heat Index:
 Reference [North America Land Data Assimilation System (NLDAS) Daily Air Temperatures and Heat Index 1979 - 2011](https://wonder.cdc.gov/wonder/help/nldas.html)
 
