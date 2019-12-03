@@ -29,6 +29,7 @@ This project tests the following hypotheses with t-tests
 
 ## Featured Notebooks/Analysis/Deliverables
 * [notebooks/MASTER.ipynb](notebooks/MASTER.ipynb)
+* Heat & Suicide.pdf
 
 ## Sources
 
