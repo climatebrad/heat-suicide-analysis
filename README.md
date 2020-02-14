@@ -20,7 +20,7 @@ The purpose of this project is to examine whether unusual rise in temperature in
   * Matplotlib/Seaborn
   * Pandas
   * Numpy
-  * Scikit-learn
+  * Statsmodels
 
 ## Project Description
 This project tests the following hypotheses with t-tests
